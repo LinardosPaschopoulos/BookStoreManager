@@ -1,0 +1,42 @@
+@inproceedings{Eme96,
+author = "Emerson, E. A.",
+title = "Automated Temporal Reasoning about Reactive Systems",
+booktitle = "Proceedings of the VIII Banff Higher order workshop conference on Logics for
+concurrency: structure versus automata",
+pages = "41--101",
+year = "1996" , }
+
+@Book{Eme90,
+author = "Emerson, E. A.",
+title = "Temporal and author modal logic",
+publisher = "Handbook of Theoretical Computer Science, Volume B: Formal Models and Semantics",
+pages = "995--1072",
+year = "1990", }
+
+@inproceedings{BR86,
+author = "Bancilhon, F. and Ramakrishnan, R.",
+title = "An amateur's introduction to recursive query processing strategies",
+booktitle = "Proc. ACM Conf. on Management of Data, Washington",
+pages = "16--52",
+year = "1986", }
+
+@article{CES86,
+author = "Clarke, E. M. and Emerson, E. A. and Sistla, A. P.",
+title = "Automatic Verification of finite-state concurrent systems using temporal logic
+specifications", journal = "ACM Transactions on Programming Languages and Systems (TOPLAS)",
+volume = "8(2)",
+pages = "244--263",
+year = "1986",}
+
+@Book{Che80,
+author = "Chellas, Brian F.",
+title = "Modal Logic: An Introduction",
+publisher = "Cambridge University Press",
+year = "1980", }
+
+@article{EH86,
+author = "Emerson, E. A. and Halpern, J. Y.",
+title = "Sometimes and not never revisited: On branching versus linear time temporal
+logic",
+journal = "Journal of the ACM", volume = "33(1)", pages = "151--178", year =
+"1986", }
