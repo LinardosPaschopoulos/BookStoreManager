@@ -31,7 +31,7 @@ The purpose of the exercise is to create a file manager that contains bibliograp
 
 •	publisher that will be a String object.
 
-•	pages that will be a String object with the form firstPage—lastPage i.e.: “995—1072”.
+•	pages that will be a String object with the form firstPage - lastPage i.e.: “995 - 1072”.
 
 •	year that will be a String object i.e.: “1990”.
 
