@@ -13,7 +13,7 @@ void type_sort (BibElement *Library, int size)
 	int i, j=0, bookstart[size]={text.length()}, bookend[size]={0};
 	string Book[size];
 	
-	for(i = 0; i<text.length(); i++)		// me auti ti loupa vrisko pou ksekinaei kai pou teleionei kathe kataxorisi sto string "text"
+	for(i = 0; i<text.length(); i++)		
 	{
 		if(text[i] == '@')
 			bookstart[j] = i;
@@ -23,7 +23,7 @@ void type_sort (BibElement *Library, int size)
 			j++;
 	} 
 	
-	for(i=0;i<size;i++)		// me auti ti loupa ftiaxno ena substring gia tin kathe kataxorisi
+	for(i=0;i<size;i++)		
 	{
 		Book[i] = text.substr(bookstart[i], bookend[i]-bookstart[i]+1);
 	}
@@ -51,7 +51,7 @@ void id_sort (BibElement *Library, int size)
 	int i, j=0, bookstart[size]={text.length()}, bookend[size]={0};
 	string Book[size];
 	
-	for(i = 0; i<text.length(); i++)		// me auti ti loupa vrisko pou ksekinaei kai pou teleionei kathe kataxorisi sto string "text"
+	for(i = 0; i<text.length(); i++)		
 	{
 		if(text[i] == '@')
 			bookstart[j] = i;
@@ -61,7 +61,7 @@ void id_sort (BibElement *Library, int size)
 			j++;
 	} 
 	
-	for(i=0;i<size;i++)		// me auti ti loupa ftiaxno ena substring gia tin kathe kataxorisi
+	for(i=0;i<size;i++)		
 	{
 		Book[i] = text.substr(bookstart[i], bookend[i]-bookstart[i]+1);
 	}
@@ -89,7 +89,7 @@ void author_sort (BibElement *Library, int size)
 	int i, j=0, bookstart[size]={text.length()}, bookend[size]={0}; 
 	string Book[size];
 	
-	for(i = 0; i<text.length(); i++)		// me auti ti loupa vrisko pou ksekinaei kai pou teleionei kathe kataxorisi sto string "text"
+	for(i = 0; i<text.length(); i++)		
 	{
 		if(text[i] == '@')
 			bookstart[j] = i;
@@ -99,7 +99,7 @@ void author_sort (BibElement *Library, int size)
 			j++;
 	} 
 	
-	for(i=0;i<size;i++)		// me auti ti loupa ftiaxno ena substring gia tin kathe kataxorisi
+	for(i=0;i<size;i++)		
 	{
 		Book[i] = text.substr(bookstart[i], bookend[i]-bookstart[i]+1);
 	}
@@ -127,7 +127,7 @@ void year_sort (BibElement *Library, int size)
 	int i, j=0, bookstart[size]={text.length()}, bookend[size]={0}; 
 	string Book[size];
 	
-	for(i = 0; i<text.length(); i++)		// me auti ti loupa vrisko pou ksekinaei kai pou teleionei kathe kataxorisi sto string "text"
+	for(i = 0; i<text.length(); i++)		
 	{
 		if(text[i] == '@')
 			bookstart[j] = i;
@@ -137,12 +137,12 @@ void year_sort (BibElement *Library, int size)
 			j++;
 	}
 	
-	for(i=0;i<size;i++)		// me auti ti loupa ftiaxno ena substring gia tin kathe kataxorisi
+	for(i=0;i<size;i++)		
 	{
 		Book[i] = text.substr(bookstart[i], bookend[i]-bookstart[i]+1);
 	}
 	
-	for(i=0;i<size;i++)		// me auti ti loupa ftiaxno ena substring gia tin kathe kataxorisi
+	for(i=0;i<size;i++)		
 	{
 		Book[i] = text.substr(bookstart[i], bookend[i]-bookstart[i]+1);
 	}
@@ -228,7 +228,7 @@ void Librarian (BibElement *Library, int size)
 	int i, j=0, bookstart[size]={text.length()}, bookend[size]={0}, spot;
 	string  Book[size], temp;
 	
-	for(i = 0; i<text.length(); i++)		// me auti ti loupa vrisko pou ksekinaei kai pou teleionei kathe kataxorisi sto string "text"
+	for(i = 0; i<text.length(); i++)		
 	{
 		if(text[i] == '@')
 			bookstart[j] = i;
@@ -238,12 +238,12 @@ void Librarian (BibElement *Library, int size)
 			j++;
 	}
 		
-	for(i=0;i<size;i++)		// me auti ti loupa ftiaxno ena substring gia tin kathe kataxorisi
+	for(i=0;i<size;i++)		
 	{
-		Book[i] = text.substr(bookstart[i], bookend[i]-bookstart[i]+1);	//PREPEI NA EPISTREFO AUTO GIA NA TO KANO SORT MAZI ME TA IPOLOIPA
+		Book[i] = text.substr(bookstart[i], bookend[i]-bookstart[i]+1);	
 	}
 	
-	for(j=0; j<size; j++)		// me auti ti loupa ksekinaei to panigiri ton setters
+	for(j=0; j<size; j++)		
 	{
 		for(i=0; i<Book[j].length(); i++)
 		{
@@ -397,7 +397,7 @@ int main()
 		text = text + temp;
 	}
 	fileRead.close();
-	for(i=0;i < text.length() ; i++)	// me auti ti loupa vrisko to sinolo ton kataxoriseon size
+	for(i=0;i < text.length() ; i++)	
 	{
 		if(text[i] == '@')
 			size++;
