@@ -31,9 +31,9 @@ The purpose of the exercise is to create a file manager that contains bibliograp
 
 •	publisher that will be a String object.
 
-•	pages that will be a String object with the form firstPage - lastPage i.e.: “995 - 1072”.
+•	pages that will be a String object with the form firstPage - lastPage e.g.: “995 - 1072”.
 
-•	year that will be a String object i.e.: “1990”.
+•	year that will be a String object e.g.: “1990”.
 
 
 The program will read files containing the details of the books (always in text format), create BibElement objects, and import them into a (dynamic) structure.
