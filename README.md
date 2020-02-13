@@ -6,6 +6,7 @@ This Project has been designed to be compiled and run with Dev-C++ 5.11.
 
 
 
+
 Description:
 
 The purpose of the exercise is to create a file manager that contains bibliographic information. First you need to define the BibElement class that will contain the following fields:
