@@ -184,7 +184,7 @@ void sort_menu (BibElement *Library, int size)
 	
 	if (primary != 0)
 	{
-		cout<<"Please make a choice from the menu above for the primary sorting value: ";
+		cout<<"Please make a choice from the menu above for the secondary sorting value: ";
 		cin>>secondary;
 		while( secondary < 0 || secondary > 4 || secondary == primary)
 		{
@@ -450,4 +450,3 @@ int main()
 	system("pause");
 	return 0;
 }
-
